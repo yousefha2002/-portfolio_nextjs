@@ -78,4 +78,19 @@ export default [
         ],
         skills:["ReactJs","Material Ui","Redux Toolkit","Form hooks","React Query","ExpressJs","Mongoose"],
     },
+    {
+        id:3,
+        title:"Academitna",
+        description:"Focuses on educational offerings and emphasizes the value of group classes, courses, and individual lessons in a structured learning environment.",
+        images:[
+            "education1.png",
+            "education5.png",
+            "education3.png",
+            "education4.png",
+            "education2.png"
+        ],
+        githubLink:"https://github.com/yousefha2002/news_ReactJs_ExpressJs",
+        headline:"FrontEnd website build by Reactjs on the client .",
+        skills:["ReactJs","Tailwindcss","React social icons"]
+    },
 ]
