@@ -89,7 +89,7 @@ export default [
             "education4.png",
             "education2.png"
         ],
-        githubLink:"https://github.com/yousefha2002/news_ReactJs_ExpressJs",
+        githubLink:"https://github.com/yousefha2002/Education_reactjs",
         headline:"FrontEnd website build by Reactjs on the client .",
         skills:["ReactJs","Tailwindcss","React social icons"]
     },
