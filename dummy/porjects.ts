@@ -93,4 +93,54 @@ export default [
         headline:"FrontEnd website build by Reactjs on the client .",
         skills:["ReactJs","Tailwindcss","React social icons"]
     },
+    {
+        id:4,
+        title:"Clinic",
+        description:"web application designed to manage patients, doctors, appointments, and transactions in a medical setting.",
+        images:[
+            "clinic1.png",
+            "clinic2.png",
+            "clinic3.png",
+            "clinic4.png",
+            "clinic5.png",
+            "clinic6.png",
+            "clinic7.png"
+        ],
+        githubLink:"https://github.com/yousefha2002/clinic_nextjs_nestjs",
+        headline:"fullstack website build by NextJs on the client and NestJs on the server .",
+        skills:["NextJs15","Tailwindcss","NestJs","Sequilize"],
+        usecases:[
+            {
+                role:"Admin",
+                functions:[
+                    "create, update, and delete departments (e.g., cardiology, dermatology, etc.).",
+                    "create user accounts, assign roles (Doctor or Patient), and manage user access.",
+                    "create, update, and cancel appointments for both doctors and patients.",
+                    "update the date and time of appointments.",
+                    "view all appointments, track their status (Upcoming, Completed, or Canceled).",
+                    "create transactions for patients.",
+                    "determine the status of a transaction (Paid or not) and set the fee amount.",
+                    "view charts and graphs, displaying data about daily appointments and transactions throughout the year."
+                ]
+            },
+            {
+                role:"Doctor",
+                functions:[
+                    "see a list of all their upcoming appointments.",
+                    "view detailed patient information for each appointment.",
+                    "change their email and update their password."
+                ]
+            },
+            {
+                role:"Pateint",
+                functions:[
+                    "view their personal details and medical records (if available).",
+                    "see a history of their upcoming and past appointments.",
+                    "check the status of their appointments.",
+                    "view their transaction history, including appointment payments and status (Paid or Pending).",
+                    "update their email address and change their password for security."
+                ]
+            }
+        ],
+    },
 ]
