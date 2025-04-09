@@ -143,4 +143,18 @@ export default [
             }
         ],
     },
+    {
+        id:5,
+        title:"Satar",
+        description:"Shows the latest news on different topics, keeping users updated with the most recent events and trends",
+        images:[
+            "satar1.png",
+            "satar2.png",
+            "satar3.png",
+        ],
+        githubLink:"https://github.com/yousefha2002/satar_nextjs",
+        headline:"FrontEnd website build by nextjs on the client .",
+        skills:["NextJs15","Tailwindcss"],
+        livelink:"https://satar.vercel.app/"
+    },
 ]
