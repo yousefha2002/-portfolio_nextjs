@@ -157,4 +157,16 @@ export default [
         skills:["NextJs15","Tailwindcss"],
         livelink:"https://satar.vercel.app/"
     },
+    {
+        id: 6,
+        title: "CourseHub",
+        description: "An online platform for browsing and enrolling in courses. Built with a clean design and smooth navigation to enhance the learning experience.",
+        images: [
+            "courseHub.png"
+        ],
+        githubLink: "https://github.com/yousefha2002/coursehub_nextjs",
+        headline: "FrontEnd website built using Next.js and Tailwind CSS.",
+        skills: ["NextJs15", "Tailwindcss"],
+        livelink: "https://courses-seven-iota.vercel.app/"
+    }
 ]
