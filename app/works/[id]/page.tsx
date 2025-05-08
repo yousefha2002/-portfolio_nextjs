@@ -1,3 +1,4 @@
+import Container from '@/components/ui/Container'
 import Header from '@/components/works/Header'
 import LiveLink from '@/components/works/LiveLink'
 import Photos from '@/components/works/Photos'
@@ -20,14 +21,12 @@ export default async function page({params}:props) {
         notFound()
     }
     return (
-        <div className='my-[55px] flex justify-center'>
-            <div className='w-[82%] md:w-[70%] margin-x-auto'>
-                <Header title={project.title} headline={project.headline}/>
-                {project?.livelink&&<LiveLink link={project.livelink}/>}
-                {project.usecases&&<UseCases usecases={project.usecases}/>}
-                <TechnicalSheets skills={project.skills}/>
-                <Photos images={project.images}/>
-            </div>
-        </div>
+        <Container className='my-10'>
+            <Header title={project.title} headline={project.headline}/>
+            {project?.livelink&&<LiveLink link={project.livelink}/>}
+            {project.usecases&&<UseCases usecases={project.usecases}/>}
+            <TechnicalSheets skills={project.skills}/>
+            <Photos images={project.images}/>
+        </Container>
     )
 }

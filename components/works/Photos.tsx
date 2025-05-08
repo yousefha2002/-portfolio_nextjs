@@ -6,7 +6,7 @@ export default function Photos({ images }: { images: string[] }) {
     return (
         <div className='my-15'>
             <h3 className="headerTitle">Screen Shoots</h3>
-            <div className='grid w-[90%] sx:w-[80%] lg:w-[60%] mx-auto gap-x-3 mt-8 gap-y-3'>
+            <div className='grid gap-x-3 mt-8 gap-y-3'>
                 {
                     images.map(image => (
                         <div key={image} className='relative'>
