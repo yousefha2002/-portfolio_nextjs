@@ -81,7 +81,7 @@ export default [
     {
         id:3,
         title:"Academitna",
-        description:"Focuses on educational offerings and emphasizes the value of group classes, courses, and individual lessons in a structured learning environment.",
+        description:"Focuses on educational offerings and emphasizes the value of group classes, courses, and individual lessons.",
         images:[
             "education1.png",
             "education5.png",

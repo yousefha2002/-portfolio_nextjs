@@ -1,7 +1,7 @@
 import Container from "@/components/ui/Container";
 import { data } from "@/types/enums";
 
-export default function Home() {
+export default function page() {
   return (
     <main>
       <Container className="my-10">
