@@ -7,7 +7,7 @@ import TopicLinks from "@/components/TopicLinks";
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: "Portfloio",
+  title: "Portfolio",
 };
 
 export default function RootLayout({
