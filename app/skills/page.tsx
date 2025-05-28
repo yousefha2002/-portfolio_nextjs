@@ -3,14 +3,14 @@ import Container from '@/components/ui/Container'
 import Skills from '@/dummy/Skills'
 import React from 'react'
 
-export default function page() {
+export default function Page() {
     return (
-        <Container className='mb-10'>
-            <div className='flex gap-x-2 gap-y-4 items-center flex-wrap justify-center'>
-                {
-                    Skills.map((item,index)=><SkillBox skill={item} key={index}/>)
-                }
-            </div>
+        <Container className="my-10 max-w-4xl mx-auto px-4">
+        <div className="flex flex-wrap justify-center items-center gap-3 sm:gap-5">
+            {Skills.map((item, index) => (
+            <SkillBox skill={item} key={index} />
+            ))}
+        </div>
         </Container>
     )
 }
