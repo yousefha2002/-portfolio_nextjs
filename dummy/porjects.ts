@@ -88,7 +88,7 @@ export default [
         skills: ["NextJs15", "Tailwindcss"],
         livelink: "https://courses-seven-iota.vercel.app/"
     },
-    {
+    { 
         id: 7,
         title: "Zerotodev",
         description: "Zerotodev is an educational web platform designed to help users learn programming through interactive articles, quizzes, points, and gamified features.",
